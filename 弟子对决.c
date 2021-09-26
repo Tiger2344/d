@@ -10,20 +10,20 @@ int main()
 	
 	while(t<=3){
 		
-		scanf("%d %d  ",&x,&y);
-		int k,m,n,g;
+		scanf("%d %d",&x,&y);
+		int k,a,b,g;
 		printf("是否使用技能(是请输入一，不是请输入零)\n");
-		scanf("%d %d %d %d",&k,&m,&n,&g) ;
+		scanf("%d %d %d %d",&k,&a,&b,&g) ;
 		
 		if(k==1){
 			printf("要有理想\n");
 			x=x+2;
 		}
-		if(m==1){
+		if(a==1){
 			printf("不讲武德\n");
 			x=x-2;
 		}
-		if(n==1){
+		if(b==1){
 			printf("如来神掌\n");
 			x=6;
 			
