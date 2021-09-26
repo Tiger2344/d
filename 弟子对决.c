@@ -6,7 +6,7 @@ int main()
 	int x,y;
 	int t=1;
 	int m=0,n=0;
-	printf("弟子对决\n");
+	printf("弟子对决请出招\n");
 	
 	while(t<=3){
 		
